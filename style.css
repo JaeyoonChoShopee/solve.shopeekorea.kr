@@ -1031,10 +1031,15 @@ ul {
 
 .hero-inner {
   position: relative;
-  top: 50%;
+  top: 10%;
   transform: translateY(-50%);
   max-width: 610px;
   margin: 0 auto;
+  /* position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 610px;
+  margin: 0 auto; */
 }
 
 .page-header {
@@ -1210,6 +1215,23 @@ ul {
 }
 
 /***** Homepage *****/
+.shopee-title {
+  font-weight: bold; 
+  font-size: 1.9em;
+  line-height: 1.3em;
+  color: white;
+  font-family: noto sans CJK;
+}
+
+.shopee-sub-title {
+  font-weight:bold; 
+  font-size: 1.1em;
+  line-height: 1.0em;
+  color: white;
+  font-family: 나눔 고딕;
+}
+
+
 .section {
   margin-bottom: 40px;
 }
